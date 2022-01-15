@@ -1,0 +1,56 @@
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+} */
+
+body{
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+}
+#logo{
+  margin:2rem 4rem;
+  color:rgb(241, 87, 87)
+}
+#total{
+  /* padding: 1.2rem 3.5rem; */
+  border:0px;
+  border-radius: 10px;
+  background-color:rgb(247, 153, 153);
+  margin: 2rem 4rem;
+  width:7rem;
+  height:3rem;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.section{
+  display:flex;
+  justify-content:space-between;
+  text-align: center;
+  margin: 1rem 1rem 3rem 1rem;
+}
+.cart{
+  margin:0.5rem;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 1rem;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+button{
+  padding: 1rem 0rem;
+  border: 0px;
+  border-radius: 10px;
+  background-color:rgb(240, 193, 193);
+  margin: 0.5rem 4rem;
+}
